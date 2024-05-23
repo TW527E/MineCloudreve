@@ -17,7 +17,7 @@ func NewOveruseNotification(userName, reason string) (string, string) {
 		"{siteUrl}":      options["siteURL"],
 		"{siteSecTitle}": options["siteTitle"],
 	}
-	return fmt.Sprintf("【%s】空间容量超额提醒", options["siteName"]),
+	return fmt.Sprintf("[%s] 空间容量超额提醒", options["siteName"]),
 		util.Replace(replace, options["over_used_template"])
 }
 
@@ -31,7 +31,7 @@ func NewActivationEmail(userName, activateURL string) (string, string) {
 		"{siteUrl}":       options["siteURL"],
 		"{siteSecTitle}":  options["siteTitle"],
 	}
-	return fmt.Sprintf("【%s】注册激活", options["siteName"]),
+	return fmt.Sprintf("[%s] 注册激活", options["siteName"]),
 		util.Replace(replace, options["mail_activation_template"])
 }
 
@@ -45,6 +45,6 @@ func NewResetEmail(userName, resetURL string) (string, string) {
 		"{siteUrl}":      options["siteURL"],
 		"{siteSecTitle}": options["siteTitle"],
 	}
-	return fmt.Sprintf("【%s】密码重置", options["siteName"]),
+	return fmt.Sprintf("[%s] 密码重置", options["siteName"]),
 		util.Replace(replace, options["mail_reset_pwd_template"])
 }
