@@ -17,7 +17,7 @@ jobs:
         id: envs
         run: |
           CLOUDREVE_LATEST_TAG=$(git describe --tags --abbrev=0)
-          DOCKER_IMAGE="cloudreve/cloudreve"
+          DOCKER_IMAGE="tw527e/minecloudreve"
 
           echo "RELEASE_VERSION=${GITHUB_REF#refs}"
           TAGS="${DOCKER_IMAGE}:latest,${DOCKER_IMAGE}:${CLOUDREVE_LATEST_TAG}"
@@ -51,7 +51,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: cloudreve/cloudreve
+          repository: tw527e/minecloudreve
           short-description: ${{ github.event.repository.description }}
       - name: Image Digest
         run: echo ${{ steps.docker_build.outputs.digest }}

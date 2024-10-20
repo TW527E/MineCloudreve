@@ -85,8 +85,8 @@ go install github.com/goreleaser/goreleaser@latest
 #### Clone the code
 
 ```shell
-git clone --recurse-submodules https://github.com/nr0728/Cloudreve.git
-cd ./Cloudreve/
+git clone --recurse-submodules https://github.com/TW527E/MineCloudreve.git
+cd ./MineCloudreve/
 ```
 
 #### Compile

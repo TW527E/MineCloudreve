@@ -5,8 +5,8 @@ COPY cloudreve ./cloudreve
 
 RUN apk update \
     && apk add --no-cache tzdata \
-    && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
-    && echo "Asia/Shanghai" > /etc/timezone \
+    && cp /usr/share/zoneinfo/Asia/Taipei /etc/localtime \
+    && echo "Asia/Taipei" > /etc/timezone \
     && chmod +x ./cloudreve \
     && mkdir -p /data/aria2 \
     && chmod -R 766 /data/aria2

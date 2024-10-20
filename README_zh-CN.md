@@ -85,7 +85,7 @@ go install github.com/goreleaser/goreleaser@latest
 #### 克隆代码
 
 ```shell
-git clone --recurse-submodules https://github.com/cloudreve/Cloudreve.git
+git clone --recurse-submodules https://github.com/TW527E/MineCloudreve.git
 ```
 
 #### 编译项目

@@ -11,7 +11,7 @@ services:
 
   cloudreve:
     container_name: cloudreve
-    image: cloudreve/cloudreve:latest
+    image: tw527e/minecloudreve:latest
     restart: unless-stopped
     ports:
       - "5212:5212"
