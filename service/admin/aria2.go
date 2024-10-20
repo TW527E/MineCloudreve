@@ -6,11 +6,11 @@ import (
 	"net/url"
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2"
-	"github.com/cloudreve/Cloudreve/v3/pkg/auth"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/aria2"
+	"github.com/TW527E/MineCloudreve/v3/pkg/auth"
+	"github.com/TW527E/MineCloudreve/v3/pkg/request"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
 )
 
 // Aria2TestService aria2连接测试服务

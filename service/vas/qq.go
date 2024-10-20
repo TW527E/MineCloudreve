@@ -1,12 +1,12 @@
 package vas
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/qq"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/thumb"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/qq"
+	"github.com/TW527E/MineCloudreve/v3/pkg/request"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/thumb"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
 )
 

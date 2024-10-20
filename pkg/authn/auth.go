@@ -1,7 +1,7 @@
 package authn
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
+	model "github.com/TW527E/MineCloudreve/v3/models"
 	"github.com/duo-labs/webauthn/webauthn"
 )
 

@@ -1,15 +1,15 @@
 package aria2
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/common"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/monitor"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
-	"github.com/cloudreve/Cloudreve/v3/pkg/mq"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/aria2"
+	"github.com/TW527E/MineCloudreve/v3/pkg/aria2/common"
+	"github.com/TW527E/MineCloudreve/v3/pkg/aria2/monitor"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cluster"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem"
+	"github.com/TW527E/MineCloudreve/v3/pkg/mq"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
 )
 

@@ -3,7 +3,7 @@ package hashid
 import (
 	"errors"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
+	"github.com/TW527E/MineCloudreve/v3/pkg/conf"
 	"github.com/speps/go-hashids"
 )
 

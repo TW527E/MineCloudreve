@@ -3,12 +3,13 @@ package chunk
 import (
 	"context"
 	"fmt"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/chunk/backoff"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"io"
 	"os"
+
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/chunk/backoff"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/fsctx"
+	"github.com/TW527E/MineCloudreve/v3/pkg/request"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 )
 
 const bufferTempPattern = "cdChunk.*.tmp"

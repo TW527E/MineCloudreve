@@ -1,12 +1,13 @@
 package middleware
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/wopi"
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"
+
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cache"
+	"github.com/TW527E/MineCloudreve/v3/pkg/wopi"
+	"github.com/gin-gonic/gin"
 )
 
 const (

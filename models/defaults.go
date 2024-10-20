@@ -1,9 +1,9 @@
 package model
 
 import (
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cache"
+	"github.com/TW527E/MineCloudreve/v3/pkg/conf"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 	"github.com/gofrs/uuid"
 )
 

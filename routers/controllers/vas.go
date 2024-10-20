@@ -1,17 +1,18 @@
 package controllers
 
 import (
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/payment"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
-	"github.com/cloudreve/Cloudreve/v3/service/vas"
+	"net/http"
+
+	"github.com/TW527E/MineCloudreve/v3/pkg/cache"
+	"github.com/TW527E/MineCloudreve/v3/pkg/payment"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
+	"github.com/TW527E/MineCloudreve/v3/service/vas"
 	"github.com/gin-gonic/gin"
 	"github.com/iGoogle-ink/gopay"
 	"github.com/iGoogle-ink/gopay/wechat/v3"
 	"github.com/qingwg/payjs/notify"
 	"github.com/smartwalle/alipay/v3"
-	"net/http"
 )
 
 // GetQuota 获取容量配额信息

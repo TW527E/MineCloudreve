@@ -3,8 +3,8 @@ package cache
 import (
 	"encoding/gob"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"github.com/TW527E/MineCloudreve/v3/pkg/conf"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
 )
 

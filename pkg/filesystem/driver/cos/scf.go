@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/hashid"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/profile"
 	scf "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/scf/v20180416"

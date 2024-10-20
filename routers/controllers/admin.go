@@ -3,16 +3,16 @@ package controllers
 import (
 	// "io"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/email"
-	"github.com/cloudreve/Cloudreve/v3/pkg/mq"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/aria2"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cluster"
+	"github.com/TW527E/MineCloudreve/v3/pkg/email"
+	"github.com/TW527E/MineCloudreve/v3/pkg/mq"
 
-	// "github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/wopi"
-	"github.com/cloudreve/Cloudreve/v3/service/admin"
+	// "github.com/TW527E/MineCloudreve/v3/pkg/request"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/wopi"
+	"github.com/TW527E/MineCloudreve/v3/service/admin"
 	"github.com/gin-gonic/gin"
 )
 

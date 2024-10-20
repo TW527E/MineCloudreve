@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
+	"github.com/TW527E/MineCloudreve/v3/pkg/hashid"
 	"github.com/duo-labs/webauthn/webauthn"
 )
 

@@ -1,9 +1,9 @@
 package common
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/rpc"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/aria2/rpc"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
 )
 
 // Aria2 离线下载处理接口

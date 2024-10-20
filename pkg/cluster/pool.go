@@ -1,11 +1,12 @@
 package cluster
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/balancer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
-	"github.com/samber/lo"
 	"sync"
+
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/balancer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
+	"github.com/samber/lo"
 )
 
 var Default *NodePool

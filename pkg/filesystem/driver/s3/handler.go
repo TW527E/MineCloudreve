@@ -4,7 +4,6 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver"
 	"io"
 	"net/http"
 	"net/url"
@@ -13,20 +12,22 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/chunk"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/chunk/backoff"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/driver"
 
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/chunk"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/chunk/backoff"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
+
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/fsctx"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/response"
+	"github.com/TW527E/MineCloudreve/v3/pkg/request"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/response"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 )
 
 // Driver 适配器模板

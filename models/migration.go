@@ -2,15 +2,16 @@ package model
 
 import (
 	"context"
-	"github.com/cloudreve/Cloudreve/v3/models/scripts/invoker"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"sort"
+	"strings"
+
+	"github.com/TW527E/MineCloudreve/v3/models/scripts/invoker"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cache"
+	"github.com/TW527E/MineCloudreve/v3/pkg/conf"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 	"github.com/fatih/color"
 	"github.com/hashicorp/go-version"
 	"github.com/jinzhu/gorm"
-	"sort"
-	"strings"
 )
 
 // 是否需要迁移

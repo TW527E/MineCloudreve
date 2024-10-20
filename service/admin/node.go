@@ -1,10 +1,11 @@
 package admin
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"strings"
+
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cluster"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
 )
 
 // AddNodeService 节点添加服务

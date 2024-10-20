@@ -7,13 +7,13 @@ import (
 	"sync"
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/common"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/monitor"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/rpc"
-	"github.com/cloudreve/Cloudreve/v3/pkg/balancer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/mq"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/aria2/common"
+	"github.com/TW527E/MineCloudreve/v3/pkg/aria2/monitor"
+	"github.com/TW527E/MineCloudreve/v3/pkg/aria2/rpc"
+	"github.com/TW527E/MineCloudreve/v3/pkg/balancer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cluster"
+	"github.com/TW527E/MineCloudreve/v3/pkg/mq"
 )
 
 // Instance 默认使用的Aria2处理实例

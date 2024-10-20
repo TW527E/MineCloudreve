@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 )
 
 // CompressTask 文件压缩任务

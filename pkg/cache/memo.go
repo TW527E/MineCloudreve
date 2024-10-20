@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 )
 
 // MemoStore 内存存储驱动

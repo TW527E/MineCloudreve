@@ -2,12 +2,13 @@ package masterinslave
 
 import (
 	"context"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/response"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cluster"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/driver"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/fsctx"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/response"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
 )
 
 // Driver 影子存储策略，用于在从机端上传文件

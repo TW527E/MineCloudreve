@@ -1,13 +1,13 @@
 ## CloudrevePlus
 ### 简介
 + 🌩 支持多家云存储的云盘系统
-+ 基于 [3.8.3开源版本](https://github.com/cloudreve/Cloudreve/releases/tag/3.8.3) 二次开发
++ 基于 [3.8.3开源版本](https://github.com/TW527E/MineCloudreve/releases/tag/3.8.3) 二次开发
 + 拉取主线最新版源码
 + 更新依赖至较新版本
 + 合并部分pr
    - [frontend#167](https://github.com/cloudreve/frontend/pull/167)
-   - [backend#1911](https://github.com/cloudreve/Cloudreve/pull/1911)
-   - [backend#1949](https://github.com/cloudreve/Cloudreve/pull/1949)
+   - [backend#1911](https://github.com/TW527E/MineCloudreve/pull/1911)
+   - [backend#1949](https://github.com/TW527E/MineCloudreve/pull/1949)
 + 修复部分已知Bug
 + 添加一些实用功能
 

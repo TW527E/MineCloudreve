@@ -3,9 +3,10 @@ package wopi
 import (
 	"encoding/xml"
 	"fmt"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"net/http"
 	"strings"
+
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 )
 
 type ActonType string

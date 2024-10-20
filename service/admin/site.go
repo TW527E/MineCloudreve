@@ -4,13 +4,13 @@ import (
 	"encoding/gob"
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
-	"github.com/cloudreve/Cloudreve/v3/pkg/email"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/thumb"
-	"github.com/cloudreve/Cloudreve/v3/pkg/vol"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cache"
+	"github.com/TW527E/MineCloudreve/v3/pkg/conf"
+	"github.com/TW527E/MineCloudreve/v3/pkg/email"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/thumb"
+	"github.com/TW527E/MineCloudreve/v3/pkg/vol"
 	"github.com/gin-gonic/gin"
 )
 

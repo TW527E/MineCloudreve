@@ -1,11 +1,11 @@
 package controllers
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
-	"github.com/cloudreve/Cloudreve/v3/pkg/wopi"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/conf"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
+	"github.com/TW527E/MineCloudreve/v3/pkg/wopi"
 	"github.com/gin-gonic/gin"
 	"github.com/mojocn/base64Captcha"
 )

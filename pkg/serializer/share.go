@@ -3,8 +3,8 @@ package serializer
 import (
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/hashid"
 )
 
 // Share 分享信息序列化

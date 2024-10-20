@@ -22,4 +22,4 @@ const IsPro = "true"
 const IsPlus = "true"
 
 // LastCommit 最后commit id
-const LastCommit = "58f3b07a"
+const LastCommit = "c2d31c89"

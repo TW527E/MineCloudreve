@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cluster"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/fsctx"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 )
 
 // TransferTask 文件中转任务

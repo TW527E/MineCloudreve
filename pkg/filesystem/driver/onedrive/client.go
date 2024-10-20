@@ -3,10 +3,10 @@ package onedrive
 import (
 	"errors"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cluster"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/request"
 )
 
 var (

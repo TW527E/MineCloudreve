@@ -2,14 +2,15 @@ package payment
 
 import (
 	"fmt"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/iGoogle-ink/gopay/wechat/v3"
-	"github.com/qingwg/payjs"
-	"github.com/smartwalle/alipay/v3"
 	"math/rand"
 	"net/url"
 	"time"
+
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
+	"github.com/iGoogle-ink/gopay/wechat/v3"
+	"github.com/qingwg/payjs"
+	"github.com/smartwalle/alipay/v3"
 )
 
 var (

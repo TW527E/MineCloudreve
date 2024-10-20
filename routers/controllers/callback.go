@@ -1,13 +1,14 @@
 package controllers
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
 	"path"
 	"strconv"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
-	"github.com/cloudreve/Cloudreve/v3/service/callback"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
+	"github.com/TW527E/MineCloudreve/v3/service/callback"
 	"github.com/gin-gonic/gin"
 )
 

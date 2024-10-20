@@ -3,8 +3,8 @@ package model
 import (
 	"encoding/json"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/rpc"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"github.com/TW527E/MineCloudreve/v3/pkg/aria2/rpc"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 	"github.com/jinzhu/gorm"
 )
 

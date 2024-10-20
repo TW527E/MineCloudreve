@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cache"
 	"github.com/jinzhu/gorm"
 )
 

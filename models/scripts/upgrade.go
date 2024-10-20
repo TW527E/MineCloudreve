@@ -2,9 +2,10 @@ package scripts
 
 import (
 	"context"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"strconv"
+
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 )
 
 type UpgradeTo340 int

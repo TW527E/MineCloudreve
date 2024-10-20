@@ -2,14 +2,15 @@ package payment
 
 import (
 	"errors"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
-	"github.com/iGoogle-ink/gopay"
-	"github.com/iGoogle-ink/gopay/wechat/v3"
 	"net/url"
 	"time"
+
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cache"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
+	"github.com/iGoogle-ink/gopay"
+	"github.com/iGoogle-ink/gopay/wechat/v3"
 )
 
 // Wechat 微信扫码支付接口

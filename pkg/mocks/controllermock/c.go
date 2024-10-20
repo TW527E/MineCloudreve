@@ -1,10 +1,10 @@
 package controllermock
 
 import (
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/common"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/mq"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/aria2/common"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cluster"
+	"github.com/TW527E/MineCloudreve/v3/pkg/mq"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
 	"github.com/stretchr/testify/mock"
 )
 

@@ -1,8 +1,8 @@
 package wopimock
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/wopi"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/wopi"
 	"github.com/stretchr/testify/mock"
 )
 

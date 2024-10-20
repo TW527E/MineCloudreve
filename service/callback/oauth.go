@@ -4,15 +4,16 @@ import (
 	"context"
 	"fmt"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/googledrive"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/onedrive"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"strings"
+
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cache"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/driver/googledrive"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/driver/onedrive"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
 	"github.com/samber/lo"
-	"strings"
 )
 
 // OauthService OAuth 存储策略授权回调服务

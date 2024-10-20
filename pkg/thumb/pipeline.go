@@ -4,14 +4,15 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"io"
 	"os"
 	"path/filepath"
 	"reflect"
 	"sort"
 	"strconv"
+
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 )
 
 // Generator generates a thumbnail for a given reader.

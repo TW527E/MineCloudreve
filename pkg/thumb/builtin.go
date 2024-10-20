@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 	"github.com/gofrs/uuid"
 
 	//"github.com/nfnt/resize"

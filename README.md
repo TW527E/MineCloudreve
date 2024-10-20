@@ -1,4 +1,4 @@
-[中文版本](https://github.com/cloudreve/Cloudreve/blob/master/README_zh-CN.md)
+[中文版本](https://github.com/TW527E/MineCloudreve/blob/master/README_zh-CN.md)
 
 <h1 align="center">
   <br>
@@ -10,15 +10,15 @@
 <h4 align="center">Self-hosted file management system with muilt-cloud support.</h4>
 
 <p align="center">
-  <a href="https://github.com/cloudreve/Cloudreve/actions/workflows/test.yml">
+  <a href="https://github.com/TW527E/MineCloudreve/actions/workflows/test.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/cloudreve/Cloudreve/test.yml?branch=master&style=flat-square"
          alt="GitHub Test Workflow">
   </a>
   <a href="https://codecov.io/gh/cloudreve/Cloudreve"><img src="https://img.shields.io/codecov/c/github/cloudreve/Cloudreve?style=flat-square"></a>
-  <a href="https://goreportcard.com/report/github.com/cloudreve/Cloudreve">
-      <img src="https://goreportcard.com/badge/github.com/cloudreve/Cloudreve?style=flat-square">
+  <a href="https://goreportcard.com/report/github.com/TW527E/MineCloudreve">
+      <img src="https://goreportcard.com/badge/github.com/TW527E/MineCloudreve?style=flat-square">
   </a>
-  <a href="https://github.com/cloudreve/Cloudreve/releases">
+  <a href="https://github.com/TW527E/MineCloudreve/releases">
     <img src="https://img.shields.io/github/v/release/cloudreve/Cloudreve?include_prereleases&style=flat-square" />
   </a>
   <a href="https://hub.docker.com/r/cloudreve/cloudreve">
@@ -30,7 +30,7 @@
   <a href="https://demo.cloudreve.org">Demo</a> •
   <a href="https://forum.cloudreve.org/">Discussion</a> •
   <a href="https://docs.cloudreve.org/v/en/">Documents</a> •
-  <a href="https://github.com/cloudreve/Cloudreve/releases">Download</a> •
+  <a href="https://github.com/TW527E/MineCloudreve/releases">Download</a> •
   <a href="https://t.me/cloudreve_official">Telegram Group</a> •
   <a href="#scroll-License">License</a>
 </p>

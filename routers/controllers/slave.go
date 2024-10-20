@@ -3,12 +3,12 @@ package controllers
 import (
 	"context"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/service/admin"
-	"github.com/cloudreve/Cloudreve/v3/service/aria2"
-	"github.com/cloudreve/Cloudreve/v3/service/explorer"
-	"github.com/cloudreve/Cloudreve/v3/service/node"
+	"github.com/TW527E/MineCloudreve/v3/pkg/request"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
+	"github.com/TW527E/MineCloudreve/v3/service/admin"
+	"github.com/TW527E/MineCloudreve/v3/service/aria2"
+	"github.com/TW527E/MineCloudreve/v3/service/explorer"
+	"github.com/TW527E/MineCloudreve/v3/service/node"
 	"github.com/gin-gonic/gin"
 )
 

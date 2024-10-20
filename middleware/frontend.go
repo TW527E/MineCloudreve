@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cloudreve/Cloudreve/v3/bootstrap"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"github.com/TW527E/MineCloudreve/v3/bootstrap"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
 )
 

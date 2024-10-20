@@ -1,11 +1,12 @@
 package model
 
 import (
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
-	"github.com/jinzhu/gorm"
 	"strconv"
 	"time"
+
+	"github.com/TW527E/MineCloudreve/v3/pkg/cache"
+	"github.com/TW527E/MineCloudreve/v3/pkg/util"
+	"github.com/jinzhu/gorm"
 )
 
 // StoragePack 容量包模型

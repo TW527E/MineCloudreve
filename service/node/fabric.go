@@ -3,14 +3,14 @@ package node
 import (
 	"encoding/gob"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/googledrive"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/onedrive"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/oauth"
-	"github.com/cloudreve/Cloudreve/v3/pkg/mq"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/cluster"
+	"github.com/TW527E/MineCloudreve/v3/pkg/conf"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/driver/googledrive"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/driver/onedrive"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/oauth"
+	"github.com/TW527E/MineCloudreve/v3/pkg/mq"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
 	"github.com/gin-gonic/gin"
 )
 

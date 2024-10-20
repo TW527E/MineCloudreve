@@ -2,9 +2,10 @@ package serializer
 
 import (
 	"encoding/gob"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
 	"time"
+
+	model "github.com/TW527E/MineCloudreve/v3/models"
+	"github.com/TW527E/MineCloudreve/v3/pkg/hashid"
 )
 
 func init() {

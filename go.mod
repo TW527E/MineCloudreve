@@ -1,4 +1,4 @@
-module github.com/cloudreve/Cloudreve/v3
+module github.com/TW527E/MineCloudreve/v3
 
 go 1.18
 

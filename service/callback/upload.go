@@ -3,15 +3,16 @@ package callback
 import (
 	"context"
 	"fmt"
-	model "github.com/cloudreve/Cloudreve/v3/models"
 	"strings"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/cos"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/onedrive"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/s3"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	model "github.com/TW527E/MineCloudreve/v3/models"
+
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/driver/cos"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/driver/onedrive"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/driver/s3"
+	"github.com/TW527E/MineCloudreve/v3/pkg/filesystem/fsctx"
+	"github.com/TW527E/MineCloudreve/v3/pkg/serializer"
 	"github.com/gin-gonic/gin"
 )
 
