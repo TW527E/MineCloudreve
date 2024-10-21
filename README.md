@@ -2,7 +2,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://cloudreve.org/" alt="logo" ><img src="https://raw.githubusercontent.com/cloudreve/frontend/master/public/static/img/logo192.png" width="150"/></a>
+  <a href="https://cloudreve.org/" alt="logo" ><img src="https://raw.githubusercontent.com/TW527E/frontend/master/public/static/img/logo192.png" width="150"/></a>
   <br>
   Cloudreve
   <br>
@@ -11,18 +11,18 @@
 
 <p align="center">
   <a href="https://github.com/TW527E/MineCloudreve/actions/workflows/test.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/cloudreve/Cloudreve/test.yml?branch=master&style=flat-square"
+    <img src="https://img.shields.io/github/actions/workflow/status/TW527E/MineCloudreve/test.yml?branch=master&style=flat-square"
          alt="GitHub Test Workflow">
   </a>
-  <a href="https://codecov.io/gh/cloudreve/Cloudreve"><img src="https://img.shields.io/codecov/c/github/cloudreve/Cloudreve?style=flat-square"></a>
+  <a href="https://codecov.io/gh/TW527E/MineCloudreve"><img src="https://img.shields.io/codecov/c/github/TW527E/MineCloudreve?style=flat-square"></a>
   <a href="https://goreportcard.com/report/github.com/TW527E/MineCloudreve">
       <img src="https://goreportcard.com/badge/github.com/TW527E/MineCloudreve?style=flat-square">
   </a>
   <a href="https://github.com/TW527E/MineCloudreve/releases">
-    <img src="https://img.shields.io/github/v/release/cloudreve/Cloudreve?include_prereleases&style=flat-square" />
+    <img src="https://img.shields.io/github/v/release/TW527E/MineCloudreve?include_prereleases&style=flat-square" />
   </a>
-  <a href="https://hub.docker.com/r/cloudreve/cloudreve">
-     <img src="https://img.shields.io/docker/image-size/cloudreve/cloudreve?style=flat-square"/>
+  <a href="https://hub.docker.com/r/TW527E/MineCloudreve">
+     <img src="https://img.shields.io/docker/image-size/TW527E/MineCloudreve?style=flat-square"/>
   </a>
 </p>
 <p align="center">
@@ -61,7 +61,7 @@ Download the main binary for your target machine OS, CPU architecture and run it
 
 ```shell
 # Extract Cloudreve binary
-tar -zxvf cloudreve_VERSION_OS_ARCH.tar.gz
+tar -zxvf minecloudreve_VERSION_OS_ARCH.tar.gz
 
 # Grant execute permission
 chmod +x ./cloudreve
