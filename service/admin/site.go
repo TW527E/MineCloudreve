@@ -87,10 +87,12 @@ func (service *BatchSettingChangeService) Change() serializer.Response {
 func (service *NoParamService) Summary() serializer.Response {
 	// 获取版本信息
 	versions := map[string]string{
-		"backend": conf.BackendVersion,
+		"backend": conf.BackendVersion + `-` + conf.PlusVersion + `-` + conf.Tw527eVersion ,
 		"db":      conf.RequiredDBVersion,
 		"commit":  conf.LastCommit,
+		"is_pro": conf.IsPro,
 		"is_plus": conf.IsPlus,
+		"is_tw527e": conf.IsTw527e,
 	}
 
 	if res, ok := cache.Get("admin_summary"); ok {

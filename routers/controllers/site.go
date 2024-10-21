@@ -55,9 +55,15 @@ func SiteConfig(c *gin.Context) {
 
 // Ping 状态检查页面
 func Ping(c *gin.Context) {
-	version := conf.BackendVersion
+	version := conf.BackendVersion + `-` + conf.PlusVersion + `-` + conf.Tw527eVersion
+	if conf.IsPro == "true" {
+		version += "-pro"
+	}
 	if conf.IsPlus == "true" {
 		version += "-plus"
+	}
+	if conf.IsTw527e == "true" {
+		version += "-tw527e"
 	}
 
 	c.JSON(200, serializer.Response{

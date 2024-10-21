@@ -82,6 +82,9 @@ func InitStatic(statics fs.FS) {
 	if conf.IsPlus == "true" {
 		staticName += "-plus"
 	}
+	if conf.IsTw527e == "true" {
+		staticName += "-tw527e"
+	}
 
 	if v.Name != staticName {
 		util.Log().Warning("Static resource version mismatch, please delete \"statics\" folder and rebuild it.")

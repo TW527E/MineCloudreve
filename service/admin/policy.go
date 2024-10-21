@@ -229,9 +229,15 @@ func (service *SlavePingService) Test() serializer.Response {
 		return serializer.Err(serializer.CodeSlavePingMaster, err.Error(), nil)
 	}
 
-	version := conf.BackendVersion
+	version := conf.BackendVersion + `-` + conf.PlusVersion + `-` + conf.Tw527eVersion
+	if conf.IsPro == "true" {
+		version += "-pro"
+	}
 	if conf.IsPlus == "true" {
 		version += "-plus"
+	}
+	if conf.IsTw527e == "true" {
+		version += "-tw527e"
 	}
 	if res.Data.(string) != version {
 		return serializer.Err(serializer.CodeVersionMismatch, "Master: "+res.Data.(string)+", Slave: "+version, nil)

@@ -31,7 +31,7 @@ func InitApplication() {
 / /___| | (_) | |_| | (_| | | |  __/\ V /  __/
 \____/|_|\___/ \__,_|\__,_|_|  \___| \_/ \___|
 
-   V` + conf.BackendVersion + `  Commit #` + conf.LastCommit + `  Plus=` + conf.IsPlus + `
+   V` + conf.BackendVersion + `-` + conf.PlusVersion + `-` + conf.Tw527eVersion + `  Commit #` + conf.LastCommit + `  Plus=` + conf.IsPlus + `  TW527E-Edition=` + conf.IsTw527e + `
 ================================================
 
 `)

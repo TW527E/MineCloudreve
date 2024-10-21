@@ -1,7 +1,16 @@
 package conf
 
+// IsPlus 是否为 Plus 版本
+const IsPlus = "true"
+
 // plusVersion 增强版版本号
-const plusVersion = "1.1"
+const PlusVersion = "1.1"
+
+// IsTw527e 是否为 TW527E 修改版
+const IsTw527e = "true"
+
+// Tw527eVersion TW527E 修改版版本号
+const Tw527eVersion = "1.0"
 
 // BackendVersion 当前后端版本号
 const BackendVersion = "3.8.3"
@@ -15,11 +24,8 @@ const RequiredDBVersion = "3.8.1"
 // RequiredStaticVersion 与当前版本匹配的静态资源版本
 const RequiredStaticVersion = "3.8.3"
 
-// IsPro 是否为Pro版本
+// IsPro 是否为 Pro 版本
 const IsPro = "true"
 
-// IsPlus 是否为Plus版本
-const IsPlus = "true"
-
-// LastCommit 最后commit id
+// LastCommit 上個 Commit 的 ID
 const LastCommit = "c2d31c89"
