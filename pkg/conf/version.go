@@ -28,4 +28,4 @@ const RequiredStaticVersion = "3.8.3"
 const IsPro = "true"
 
 // LastCommit 上個 Commit 的 ID
-const LastCommit = "c2d31c89"
+const LastCommit = "bc15c5e4"
