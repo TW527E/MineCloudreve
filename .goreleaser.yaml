@@ -1,3 +1,4 @@
+version: 2
 env:
   - CI=false
   - GENERATE_SOURCEMAP=false
@@ -66,8 +67,8 @@ release:
   name_template: "{{.Version}}"
 
 dockerhub:
-  username: "{{ .Env.DOCKER_USERNAME }}"
-  secret_name: "{{ .Env.DOCKER_PASSWORD }}"
+  username: "${{ secrets.DOCKERHUB_USERNAME }}"
+  secret_name: "${{ secrets.DOCKERHUB_PASSWORD }}"
 
 dockers:
   -
