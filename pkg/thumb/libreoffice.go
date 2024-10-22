@@ -25,10 +25,17 @@ type LibreOfficeGenerator struct {
 }
 
 func (l *LibreOfficeGenerator) Generate(ctx context.Context, file io.Reader, src string, name string, options map[string]string) (*Result, error) {
-	sofficeOpts := model.GetSettingByNames("thumb_libreoffice_path", "thumb_libreoffice_exts", "thumb_encode_method", "temp_path")
+	const (
+		thumbLibreOfficePath = "thumb_libreoffice_path"
+		thumbLibreOfficeExts = "thumb_libreoffice_exts"
+		thumbEncodeMethod    = "thumb_encode_method"
+		tempPath             = "temp_path"
+	)
+	sofficeOpts := model.GetSettingByNames(thumbLibreOfficePath, thumbLibreOfficeExts, thumbEncodeMethod, tempPath)
 
-	if l.lastRawExts != sofficeOpts["thumb_libreoffice_exts"] {
-		l.exts = strings.Split(sofficeOpts["thumb_libreoffice_exts"], ",")
+	if l.lastRawExts != sofficeOpts[thumbLibreOfficeExts] {
+		l.exts = strings.Split(sofficeOpts[thumbLibreOfficeExts], ",")
+		l.lastRawExts = sofficeOpts[thumbLibreOfficeExts]
 	}
 
 	if !util.IsInExtensionList(l.exts, name) {
@@ -36,7 +43,7 @@ func (l *LibreOfficeGenerator) Generate(ctx context.Context, file io.Reader, src
 	}
 
 	tempOutputPath := filepath.Join(
-		util.RelativePath(sofficeOpts["temp_path"]),
+		util.RelativePath(sofficeOpts[tempPath]),
 		"thumb",
 		fmt.Sprintf("soffice_%s", uuid.Must(uuid.NewV4()).String()),
 	)
@@ -45,7 +52,7 @@ func (l *LibreOfficeGenerator) Generate(ctx context.Context, file io.Reader, src
 	if tempInputPath == "" {
 		// If not local policy files, download to temp folder
 		tempInputPath = filepath.Join(
-			util.RelativePath(sofficeOpts["temp_path"]),
+			util.RelativePath(sofficeOpts[tempPath]),
 			"thumb",
 			fmt.Sprintf("soffice_%s%s", uuid.Must(uuid.NewV4()).String(), filepath.Ext(name)),
 		)
@@ -67,9 +74,9 @@ func (l *LibreOfficeGenerator) Generate(ctx context.Context, file io.Reader, src
 	}
 
 	// Convert the document to an image
-	cmd := exec.CommandContext(ctx, sofficeOpts["thumb_libreoffice_path"], "--headless",
+	cmd := exec.CommandContext(ctx, sofficeOpts[thumbLibreOfficePath], "--headless",
 		"-nologo", "--nofirststartwizard", "--invisible", "--norestore", "--convert-to",
-		sofficeOpts["thumb_encode_method"], "--outdir", tempOutputPath, tempInputPath)
+		sofficeOpts[thumbEncodeMethod], "--outdir", tempOutputPath, tempInputPath)
 
 	// Redirect IO
 	var stdErr bytes.Buffer
@@ -84,7 +91,7 @@ func (l *LibreOfficeGenerator) Generate(ctx context.Context, file io.Reader, src
 	return &Result{
 		Path: filepath.Join(
 			tempOutputPath,
-			strings.TrimSuffix(filepath.Base(tempInputPath), filepath.Ext(tempInputPath))+"."+sofficeOpts["thumb_encode_method"],
+			strings.TrimSuffix(filepath.Base(tempInputPath), filepath.Ext(tempInputPath))+"."+sofficeOpts[thumbEncodeMethod],
 		),
 		Continue: true,
 		Cleanup:  []func(){func() { _ = os.RemoveAll(tempOutputPath) }},

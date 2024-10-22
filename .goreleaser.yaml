@@ -65,6 +65,10 @@ release:
   target_commitish: '{{ .Commit }}'
   name_template: "{{.Version}}"
 
+dockerhub:
+  username: "{{ .Env.DOCKER_USERNAME }}"
+  secret_name: "{{ .Env.DOCKER_PASSWORD }}"
+
 dockers:
   -
     dockerfile: Dockerfile
