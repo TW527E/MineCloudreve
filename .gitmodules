@@ -1,3 +1,4 @@
 [submodule "assets"]
 	path = assets
 	url = https://github.com/TW527E/frontend.git
+    branch = 8e361f6
