@@ -10,7 +10,7 @@ const PlusVersion = "1.1"
 const IsTw527e = "true"
 
 // Tw527eVersion TW527E 修改版版本号
-const Tw527eVersion = "1.1"
+const Tw527eVersion = "1.2"
 
 // BackendVersion 当前后端版本号
 const BackendVersion = "3.8.3"
@@ -28,4 +28,4 @@ const RequiredStaticVersion = "3.8.3"
 const IsPro = "true"
 
 // LastCommit 上個 Commit 的 ID
-const LastCommit = "61c73aa0"
+const LastCommit = "31ee2b7b"
