@@ -18,9 +18,8 @@ jobs:
         id: go
 
       - name: Setup Environments
-        id: envs
         run: |
-          export NODE_OPTIONS=--openssl-legacy-provider
+          echo "NODE_OPTIONS=--openssl-legacy-provider" >> $GITHUB_ENV
 
       - name: Setup QEMU Emulator
         uses: docker/setup-qemu-action@master
@@ -52,3 +51,4 @@ jobs:
           args: release --clean --skip=validate
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          NODE_OPTIONS: ${{ env.NODE_OPTIONS }}
