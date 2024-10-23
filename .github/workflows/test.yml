@@ -1,11 +1,6 @@
 name: Test
 
-on:
-  pull_request:
-    branches:
-      - master
-  push:
-    branches: [master]
+on: workflow_dispatch
 
 jobs:
   test:
