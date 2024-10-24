@@ -40,7 +40,6 @@ jobs:
       - run: |
           git fetch --prune --unshallow --tags
 
-      # 新增：設置環境變數來支持 Node.js 遺留 OpenSSL 加密
       - name: Build and Release
         uses: goreleaser/goreleaser-action@v4
         with:
@@ -49,4 +48,5 @@ jobs:
           args: release --clean --skip=validate
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          # Node.js 遺留 OpenSSL 加密
           NODE_OPTIONS: --openssl-legacy-provider

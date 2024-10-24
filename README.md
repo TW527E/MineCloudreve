@@ -77,7 +77,7 @@ chmod +x ./cloudreve
 # 啟動 Cloudreve
 ./cloudreve
 ```
-
+****
 以上為最簡單的部署示例，您可以參考 [文件 - 起步](https://docs.cloudreve.org/) 進行更為完善的部署。
 
 ## :gear: 構建
